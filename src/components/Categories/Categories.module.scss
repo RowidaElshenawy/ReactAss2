@@ -1,5 +1,7 @@
 $main-color: red;
-@import '../../../mixin';
+@import '../../../_mixins.scss';
+
+
 .custom {
     background-color: $main-color;
 }
