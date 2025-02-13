@@ -1,4 +1,4 @@
-@import '../../../_mixin.scss';
+@use "../../sass/partialFiles/_mixin.scss" as *;
 
 .child{
     @include childstyles ;
