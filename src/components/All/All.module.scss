@@ -1,4 +1,5 @@
-@import '../../../mixin';
+@import '../../../_mixin.scss';
+
 .child{
     @include childstyles ;
 }
