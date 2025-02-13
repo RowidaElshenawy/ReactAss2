@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #F4F2EE;
+    /* font-family: "Cedarville Cursive", serif; */
+    font-family: "Signika Negative", serif;
+}
+.active{
+    background-color: black;
+    color: white;
+}
+
+

@@ -1,0 +1,27 @@
+$transitionShadw: all 0.5s;
+.orange{
+    li:first-child{
+        background-color: #F29724;
+        box-shadow: -4px 4px  20px #f29524;
+        transition: $transitionShadw;
+        &:hover{
+            box-shadow: none;
+        }
+    }
+}
+aside{
+    li{
+        transition: $transitionShadw;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+    ul{
+        .smargin{
+            transition: $transitionShadw;
+            &:hover{
+                box-shadow: -4px  4px 20px #f2952446;
+            }
+        }
+    }
+}

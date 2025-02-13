@@ -1,0 +1,40 @@
+$border-color:rgba(0, 0, 0, 0.484);
+h2{
+    font:{
+        family: "Pacifico", serif;
+        size:35px;
+    };
+    background: {
+        image: linear-gradient(to right, #F29724 , #c90519);
+        clip: text;
+    };
+    color: transparent;
+}
+.TabsUl{
+    border-bottom: 1px solid $border-color;
+    li{
+        color: rgba(0, 0, 0, 0.655);
+        margin: {
+            right: 5px;
+            bottom: 15px;
+        };
+        .tab{
+            border:{
+                color: $border-color;
+                width: 1px;
+                radius: 18px;
+            };
+            padding: {
+                inline:20px;
+                block: 5px;
+            };
+            transition: all 0.3s;
+            &:hover{
+                background-color: white;
+                scale: 1.05;
+                box-shadow:  5px 10px 20px rgba(128, 128, 128, 0.275);
+            }
+        }
+    }
+}
+

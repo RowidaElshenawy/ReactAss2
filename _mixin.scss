@@ -1,0 +1,33 @@
+$shadow:5px 5px 20px gray;
+$transition:all 0.5s;
+@mixin childstyles {
+    transition: $transition;
+    scale: 0.98;
+    .inner{
+        transition: $transition;
+    }
+    &:hover{
+        scale: 1.0;
+        .inner{
+            box-shadow: $shadow;
+        }
+        div {
+            img{
+                transition: all 1s;
+                transform: rotate(360deg);
+            }
+        }
+    };
+    img{
+        box-shadow: $shadow;
+    }
+    .bt{
+        transition: $transition;
+        scale: 0.90;
+        &:hover{
+            background-color:#059669 ;
+            scale: 1.0;
+        }
+    }
+}
+

@@ -1,0 +1,8 @@
+$main-color: red;
+@import '../../../mixin';
+.custom {
+    background-color: $main-color;
+}
+.child1{
+    @include childstyles
+}
