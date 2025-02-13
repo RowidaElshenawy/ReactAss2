@@ -1,7 +1,5 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import Ingredients from '../Ingredients/Ingredients';
-import categoryStyles from "../Categories/categories.module.scss"
 import { Link, useParams } from 'react-router-dom';
 import styleCategory from './Categories.module.scss'
 export default function Categories() {
